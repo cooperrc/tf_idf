@@ -18,7 +18,6 @@ jupyter:
 
 ```python
 #| default_exp core
-import multiprocessing as mp
 import numpy as np
 import pandas as pd
 pd.set_option('display.max_rows', None)
