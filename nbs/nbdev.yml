@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "tf_idf"
+  site-url: "https://cooperrc.github.io/tf_idf"
+  description: "This is a short set of functions meant to help analyze cosine similarity between texts"
+  repo-branch: main
+  repo-url: "https://github.com/cooperrc/tf_idf"
