@@ -68,7 +68,11 @@ def calculate_tfidf(df):
     tfidf_matrix = vectorizer.fit_transform(stemming)
     
     # Get words from stopwords array to use as headers
-    feature_names = vectorizer.get_feature_names_out()
+    try:
+        feature_names = vectorizer.get_feature_names_out()
+    except AttributeError:
+        feature_names = vectorizer.get_feature_names()
+        
 
     # Combine header titles and weights
     df_tfidf = pd.DataFrame(tfidf_matrix.toarray(), columns=feature_names)

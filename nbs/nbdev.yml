@@ -2,8 +2,8 @@ project:
   output-dir: _docs
 
 website:
-  title: "tf_idf"
-  site-url: "https://cooperrc.github.io/tf_idf"
+  title: "tf_idf_cosimm"
+  site-url: "https://cooperrc.github.io/tf_idf_cosimm"
   description: "This is a short set of functions meant to help analyze cosine similarity between texts"
   repo-branch: main
-  repo-url: "https://github.com/cooperrc/tf_idf"
+  repo-url: "https://github.com/cooperrc/tf_idf_cosimm"
